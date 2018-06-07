@@ -51,7 +51,7 @@ void render3d(std::string file_name, size_t width, size_t height) {
   Renderer3d renderer = Renderer3d(file_name);
 
   double near = 0.1, far = 1000;
-  double focal_length_x = 525, focal_length_y = 525;
+  double focal_length_x = 464, focal_length_y = 464;
 
   renderer.set_parameters(width, height, focal_length_x, focal_length_y, near, far);
 
